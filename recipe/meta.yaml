@@ -1,5 +1,5 @@
 {% set name = "docplex" %}
-{% set version = "2.22.213" %}
+{% set version = "2.23.222" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/docplex-{{ version }}.tar.gz
-  sha256: 8a86bba42b5b65f2e0f88ed350115efeb783b444661e2cfcf3a67d5c59bcb0bd
+  sha256: 7395e97c41939288e0ce4f804c7092cf3874e33784549104281a7e94f7d2fb1e
 
 build:
   number: 0
@@ -33,7 +33,7 @@ test:
     - pip
 
 about:
-  home: https://onboarding-oaas.docloud.ibmcloud.com/software/analytics/docloud/
+  home: https://www.ibm.com/cloud/decision-optimization-for-watson-studio
   summary: The IBM Decision Optimization CPLEX Modeling for Python
   license: Apache-2.0
   license_file: LICENSE.txt
