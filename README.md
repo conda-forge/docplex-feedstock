@@ -1,7 +1,7 @@
 About docplex
 =============
 
-Home: https://onboarding-oaas.docloud.ibmcloud.com/software/analytics/docloud/
+Home: https://www.ibm.com/cloud/decision-optimization-for-watson-studio
 
 Package license: Apache-2.0
 
