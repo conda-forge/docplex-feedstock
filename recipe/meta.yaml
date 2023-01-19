@@ -1,5 +1,5 @@
 {% set name = "docplex" %}
-{% set version = "2.24.232" %}
+{% set version = "2.25.236" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/docplex-{{ version }}.tar.gz
-  sha256: 328e0887fda5b48a273f7ec10f20a2d1f6366e43edda28f51740355acd6c1758
+  sha256: 256914b4c0113a4e1c78f32ea20c7d76dc8efe286fe890270e75cfad50fe510f
 
 build:
   number: 0
